@@ -9,5 +9,7 @@ public class DemoClass {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
+
+        // just making sure
     }
 }
